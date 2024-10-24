@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        } 
+        legend {
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+            margin-right: 2px;
+        }
+        .profile-details {
+            flex: 1;
+            line-height: 1.5;
+        }
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .profile-header img {
+            width: 300px;
+            height: 300px;
+            background-color: #ccc;
+        }
+        .profile-info {
+            margin-left: 20px;
+        }
+        .profile-info h1 {
+            margin: 0;
+        }
+
+        .categories {
+            text-align: right;
+        }
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .profile-info {
+            margin: 20px 0;
+        }
+        .attachments {
+            margin-top: 20px;
+        }
+        .attachments img {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .attachments a {
+            display: block;
+            text-decoration: none;
+            color: blue;
+        }
+        .media, .thumbnails {
+            margin-top: 20px;
+        }
+        .media .bar {
+            width: 100%;
+            height: 20px;
+            background-color: #ddd;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .media .bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60%;
+            height: 100%;
+            background-color: green;
+        }
+        .thumbnails {
+            display: flex;
+        }
+        .thumbnails .thumb {
+            width: 80px;
+            height: 80px;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        video {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<fieldset>
+    <legend>TUGAS BILI</legend>
+    <div class="profile-header">
+        <img src="bili.jpg" alt="Profile Image">
+        <div class="profile-info">
+            <p><strong>Muhamad Bili Gunawan</strong></p>
+            <p>JL, Cilebut Timur</p>
+            <p>Jawa barat, Bogor</p>
+            <p>Sukaraja</p>
+            <p>Email: <a href="billygunawan2005@gmail.com">billygunawan2005@gmail.com</a></p>
+            <p>Telephone : <a href="tel:081310760696">081310760696</a></p>
+        </div>
+        <div class="categories">
+            <strong><u>Sosmed</u></strong>
+            <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Youtube</li>
+                <li>Github</li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <fieldset>
+        <legend>Deskripsi Saya</legend>
+        <div class="description">
+            <p>Saya adalah mahasiswa Sekolah Tinggi Teknologi Nurul fikri (STT NF). Saya lulusan tahun 2023 asal sekolah saya SMK MANDIRI BOJONG GEDE dengan Jurusan Otomatisasi Tata Kelola Perkantoran (OTKP).</p>
+            <p>Pengalaman saya, saya sempat kerja terlebih dahulu sebelum kuliah di STTNF selama satu tahun dan hobi saya bermain game dan main bola</p>
+        </div>
+        <footer>
+            <div>
+                <div style="display: flex;">
+            <fieldset>
+                <legend>Youtube</legend>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lATU_t1UUjc?si=c2aEVCUXHqKLsnbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </fieldset>
+            <fieldset>
+                <legend>Blog Thumbnail</legend>
+                <img src="foto.jpg" alt="" width="100px" height="auto">
+                <img src="foto.jpg" alt="" width="100px" height="auto">
+                <br>
+                <img src="foto.jpg" alt="" width="100px" height="auto">
+                <img src="foto.jpg" alt="" width="100px" height="auto">
+            </fieldset>
+            <fieldset>
+                <legend>Attachments</legend>
+                <a href="https://www.instagram.com/bylwanzy/profilecard/?igsh=MTZwNDI4ZjRzY3o1Ng==">instagram ku</a>
+                <br>
+                <a href="https://www.instagram.com/bylwanzy/profilecard/?igsh=MTZwNDI4ZjRzY3o1Ng==">instagram ku</a>
+                <br>
+                <a href="https://www.instagram.com/bylwanzy/profilecard/?igsh=MTZwNDI4ZjRzY3o1Ng==">instagram ku</a>
+                <br>
+                <a href="https://www.instagram.com/bylwanzy/profilecard/?igsh=MTZwNDI4ZjRzY3o1Ng==">instagram ku</a>
+            </fieldset>  
+        </div>
+        </div>
+        <footer>
+</body>
+</html>
